@@ -1,0 +1,56 @@
+html, body{
+    margin: 0%;
+    
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+.auswahl{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: 550px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 26pt;
+    font-weight: bold;
+    border-style: none;
+    color: white;
+    background-color: #8cd6e6;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: 550px;
+    margin-top: 60px;
+    font-size: 26pt;
+    font-weight: bold;
+    border-style: none;
+    color: white#;
+    background-color: #8cd6e6; 
+    background-color: none;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.carouselAnzeige{
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+  width: 100%;
+  background-size: 65%;
+}
+
+.beschreibung{
+  padding: 2rem 0;
+}
+
+
+

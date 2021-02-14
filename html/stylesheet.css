@@ -1,0 +1,506 @@
+*{
+	margin:0;
+	padding:0;
+
+    
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-image: url(Bilder/wallpaper.jpg);
+}
+
+.anzeige{
+    position: absolute;
+    top: 750px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+    width: 1200px;
+    height: 750px;
+    background-image: url(Bilder/wallpaper.jpg);
+    
+    
+}
+
+.hauptseite{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.anzeigeSpiel{
+    position: absolute;
+    top: 750px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+    width: 1200px;
+    height: 750px;
+    background-image: url(Bilder/wallpaper.jpg);
+    
+    
+}
+
+
+
+.button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 750px;
+    height: 350px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 26pt;
+    font-weight: normal;
+    font-family: monospace;
+    border-style: none;
+    color: white;
+    background-color: #8cd6e6;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+.carouselbutton {
+    width: 50px;
+    height: 50px;
+    margin-left: 17px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 26pt;
+    font-weight: bold;
+    border-style: none;
+    color: white#;
+    background-color: deepskyblue;
+    border-radius: 25px;
+    
+    
+}
+
+.QRbutton {
+    width: 450px;
+    height: 450px;
+    margin-left: 390px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 26pt;
+    font-weight: bold;
+    border-style: none;
+    color: white#;
+    background-color: transparent;
+    border-radius: 25px;
+    
+}
+
+#qrQode {
+  background-image: url(Bilder/qr-code.png);
+}
+
+#abbruch {
+  background-color: transparent;
+}
+
+.buttonSp {
+    width: 225px;
+    height: 180px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    font-size: 10pt;
+    font-weight: bold;
+    border-style: none;
+    color: white#;
+    background-image: url(Bilder/buttons.jpg);
+    border-radius: 10px;
+    
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#aufforderung {
+    margin-top: 20px;
+    font-size: 25pt;
+    text-align: center;
+    margin-bottom: 1em;
+    
+}
+
+#Waufforderung {
+  
+  margin-top: 20px;
+  font-size: 25pt;
+  text-align: center;
+  margin-bottom: 1em;
+  text-decoration: underline;
+}
+
+#WaufforderungL {
+  
+  margin-top: 20px;
+  font-size: 25pt;
+  text-align: center;
+  margin-bottom: 1em;
+  text-decoration: underline;
+  margin-bottom: 5em;
+}
+
+
+
+#indexButton {
+  width: 450px;
+  height: 70px;
+  margin-left: 390px;
+  margin-top: 1em;
+  background-color: transparent;
+  font-family: monospace;
+  font-style: normal;
+  text-align-last: center;
+  border-radius: 0.5em;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2em;
+  color: white;
+  box-shadow: 0 0 2px 2px olive;
+  
+}
+
+#iabbruchButton {
+  width: 450px;
+  height: 70px;
+  margin-left: 390px;
+  margin-top: 1em;
+  background-image: url(Bilder/abbruch.jpg);
+  font-family: monospace;
+  font-style: normal;
+  text-align-last: center;
+  border-radius: 0.5em;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2em;
+  color: white;
+  
+}
+
+#habbruchButton {
+  width: 450px;
+  height: 70px;
+  margin-left: 180px;
+  margin-right: 30px;
+  margin-top: 3em;
+  background-image: url(Bilder/abbruch.jpg);
+  font-family: monospace;
+  font-style: normal;
+  text-align-last: center;
+  border-radius: 0.5em;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2em;
+  color: white;
+  
+  
+}
+
+#ersteller {
+  background-image: url(Bilder/credits.png);
+  width: 140px;
+  height: 70px;
+  margin-left: 1000px;
+  margin-top: 1em;
+  border-radius: 2em;
+  font-style: normal;
+  font-size: 1em;
+  
+}
+
+
+#back {
+  background-image: url(Bilder/back.png);
+  width: 140px;
+  height: 70px;
+  margin-left: 1em;
+  margin-top: 1em;
+  border-radius: 1em;
+  font-style: italic;
+}
+
+#spiel {
+  background-image: url(Bilder/tic.png);
+  width: 860px;
+}
+
+#informiereDich {
+  background-image: url(Bilder/uSam.png);
+  font-style: italic; 
+  color: azure;
+  
+}
+
+.bodySpiel {
+  background-image: url(Bilder/wallpaper.jpg);
+}
+
+#laborButton {
+  background-color: deepskyblue;
+  width: 850px;
+  height: 90px;
+  margin-left: 200px;
+  margin-top: 3em;
+  border-radius: 2em;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2em;
+  
+}
+
+#regelnLaborÜberschrift {
+  
+  margin-top: 20px;
+  font-size: 50pt;
+  text-align: center;
+  margin-bottom: 1em;
+  text-decoration: underline;
+  color: black;
+}
+
+/*nav bar */
+
+.nav{
+  background-color: transparent;
+  padding: 0,2rem;
+  height: 0rem;
+  min-height: 10vh;
+  overflow: hidden;
+  box-shadow: 0 0 2px 2px olive;
+}
+
+.navBeschriftung{
+  background-color: transparent;
+  padding: 0,2rem;
+  height: 0rem;
+  min-height: 10vh;
+  overflow: hidden;
+}
+
+
+
+.nav-menu-flex-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.nav .nav-menu-flex-row{
+  justify-content: space-between;
+}
+
+.nav-bar{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-size: 5pt;
+    font-weight: bold;
+    border-style: none;
+    color: white;
+    background-image: url(Bilder/qr-code.png);
+    border-radius: 5px;
+    
+}
+
+.collapse{
+  height: 35rem;
+  transition: 1s
+  
+}
+
+.navbutton{
+    width: 260px;
+    height: 300px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-size: 26pt;
+    font-weight: bold;
+    border-style: none;
+    color: white;
+    background-image: url(Bilder/wallpaper.jpg);
+    border-radius: 10px;
+}
+
+.hauptSbutton{
+  width: 200px;
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 7px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 15pt;
+    font-family: monospace;
+    font-weight: bold;
+    border-style: none;
+    color: white;
+    background-image: url(Bilder/wallpaper.jpg);
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px olive;
+}
+
+.nurSpielen{
+  width: 450px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-bottom: 60px;
+    margin-top: 160px;
+    font-size: 15pt;
+    font-family: monospace;
+    font-weight: bold;
+    border-style: none;
+    color: white;
+    background-image: url(Bilder/wallpaper.jpg);
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px olive;
+    
+}
+
+.nav-brand{
+  width: 130px;
+    height: 45px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0.5em;
+    margin-top: 0.4em;
+    font-size: 26pt;
+    text-align: center;
+    font-weight: normal;
+    font-family: cursive;
+    font-style: italic;
+    border-style: none;
+    color: white#;
+    background-color: none;
+    
+    
+    border-radius: 10px;
+}
+
+
+/*zurück button */
+
+.zurück{
+  background-image: url(Bilder/wallpaper.jpg);
+  width: 250px;
+  font-family: monospace;
+  font-style: normal;
+  text-align-last: center;
+  height: 70px;
+  margin-left: 0px;
+  margin-top: 1em;
+  border-radius: 0.5em;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2em;
+  color: white;
+}
+
+#zurückHS{
+  background-image: url(Bilder/wallpaper.jpg);
+  width: 250px;
+  margin-top: 3em;
+  margin-left: 1em;
+  font-family: monospace;
+  font-style: normal;
+  text-align-last: center;
+  height: 70px;
+  
+  border-radius: 0.5em;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2em;
+  color: white;
+  
+}
+
+#insta{
+  background-image: url(Bilder/wallpaper.jpg);
+  width: 250px;
+  margin-top: 1em;
+  margin-left: 1em;
+  font-family: monospace;
+  font-style: normal;
+  text-align-last: center;
+  height: 70px;
+  
+  border-radius: 0.5em;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2em;
+  color: white;
+  
+}
+
+.hUnten {
+  float: left;
+}
+
+#infoLabor {
+  border-radius: 0;
+  background-color: transparent;
+  margin-top: 120px;
+  width: 691px;
+  height: 460px;
+  font-size: 2em;
+  margin-left: 10em;
+  color: white;
+  font-family: monospace;
+  box-shadow: 0 0 2px 2px white;
+}
+
+#hygieneHFU {
+  border-radius: 0;
+  background-color: transparent;
+  margin-top: 120px;
+  width: 691px;
+  height: 426px;
+  font-size: 2em;
+  margin-left: 10em;
+  color: white;
+  font-family: monospace;
+  box-shadow: 0 0 2px 2px white;
+}
+
+.nav-content {
+  margin-top: 70px;
+  padding: 20px;
+  width: 90%;
+  max-width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc(100% - 70px);
+  background: #ececec;
+  pointer-events: auto;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  transform: translateX(-100%);
+  transition: transform .3s;
+  will-change: transform;
+  contain: paint;
+}
+
+
+
+
+
