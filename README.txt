@@ -1,4 +1,4 @@
-Corona Info Terminal V1.0 Abgabe: 14.02.21, Hochschule Furtwangen, Masterstudiengang MOS an der Fakultät Informatik. Betreuer: Dr. Elmar Cochlovius. Ersteller: Vasiliy Seibert.
+Corona Info Terminal V1.0 Abgabe: 14.02.21, Hochschule Furtwangen, Masterstudiengang MOS an der Fakultät Informatik. Betreuer: Dr. Elmar Cochlovius. Martin Kramer Ersteller: Vasiliy Seibert.
 
 Für detailierte Informationen: siehe Dokumentation
 Kontakt: vasiliy.sviyazov@hs-furtwangen.de.
